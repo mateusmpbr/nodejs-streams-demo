@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-streams-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "01": "tsx src/01-readable/index.ts",
+    "02": "tsx src/02-writable/index.ts",
+    "03": "tsx src/03-transform/index.ts",
+    "04": "tsx src/04-pipeline/index.ts",
+    "05": "tsx src/05-backpressure/index.ts",
+    "06": "tsx src/06-object-mode/index.ts",
+    "07:server": "tsx src/07-http-streaming/index.ts --server",
+    "07:client": "tsx src/07-http-streaming/index.ts --client"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

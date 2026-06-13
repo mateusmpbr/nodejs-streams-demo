@@ -1,0 +1,6 @@
+node_modules/
+dist/
+*.gz
+*.jsonl
+large-input.txt
+large-output.txt
